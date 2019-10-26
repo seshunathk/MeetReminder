@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView1"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateAndTime">
+
+        <TextView
+            android:gravity="center"
+            android:text="TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/textView2"/>
+
+        <TextView
+            android:gravity="center"
+            android:text="TextView3"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/textView2"/>
+    </LinearLayout>
+
+    <TextView
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:text="TextView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/dateAndTime"/>
+
+
+
+</LinearLayout>

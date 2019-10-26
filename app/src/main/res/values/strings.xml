@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MEET REMINDER</string>
+    <string name="home">HOME</string>
+    <string name="restaurants">RESTAURANTS</string>
+    <string name="map">MAP</string>
+    <string name="settings">SETTINGS</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!--    <string name="map_api">AIzaSyAtQo7gRzOjaNAupOeV_VoIZQOV2f3VCSI</string>-->
+    <!--    <string name="map_api">AIzaSyAcdAW8K-1zlYg3fpsBJguzeEkFF1HPRCY</string>-->
+    <string name="map_api">AIzaSyA8IjG0RtQkAG6cN_VVf4SMegXM-O6we3Q</string>
+    <string name="meeting_purpose">Meeting Purpose</string>
+
+    <string-array name="places">
+        <item>Georgian College</item>
+        <item>Walmart</item>
+        <item>McDonalds</item>
+    </string-array>
+
+</resources>
